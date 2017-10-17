@@ -4,6 +4,7 @@ class MyElementWithShadowDom extends HTMLElement {
   constructor() {
     super(); // always call super() first in the ctor.
     this.msg = 'Hello, RennesJS!';
+    // call to active the shadow dom
     this.attachShadow({ mode: 'open' });
   }
   // Called when your element is inserted in the DOM or
