@@ -1,3 +1,4 @@
+// claas not used here in source just for explanation
 class MyElementLifecycle extends HTMLElement {
   constructor() {
     // Called when an instance of the element is created or upgraded
